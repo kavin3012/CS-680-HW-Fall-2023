@@ -1,0 +1,11 @@
+Testcase: edu.umb.cs680.hw05.FireAlarmTest
+Test: testFireAlarmAddObserverMethod() took 8 milli sec(s)
+Test: testFireAlarmCountObserversMethod() took 0 milli sec(s)
+Test: testFireAlarmGetObserversMethod() took 0 milli sec(s)
+Test: testFireAlarmNotifyObserversMethod() took 0 milli sec(s)
+Test: testFireAlarmClearObserverMethod() took 1 milli sec(s)
+Tests run: 5, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 15 milli sec(s)
+------------- Standard Output ---------------
+Temperatue is increasing
+Flash Orange Light
+------------- ---------------- ---------------

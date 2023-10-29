@@ -1,0 +1,14 @@
+Testcase: edu.umb.cs680.hw04.DocumentTest
+Test: testInitialDocumentState() took 5 milli sec(s)
+Test: testExitDocument() took 0 milli sec(s)
+Test: testEditDocument() took 0 milli sec(s)
+Test: testViewDocument() took 1 milli sec(s)
+Test: testSaveDocument() took 0 milli sec(s)
+Tests run: 5, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 11 milli sec(s)
+------------- Standard Output ---------------
+You cannot exit the document, you need to close the application completely, make sure the document is saved
+You are already in the Editing state. Keep editing the document.
+Saving the document...
+Viewing the document...
+Saving the document...
+------------- ---------------- ---------------
