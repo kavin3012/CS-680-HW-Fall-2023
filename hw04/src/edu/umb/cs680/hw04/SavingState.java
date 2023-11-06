@@ -10,7 +10,7 @@ public class SavingState implements DocumentState{
 
     @Override
     public void editDocument() {
-        System.out.println("You cannot edit the document while it's being saved. Please wait.");
+        document.setCurrentState(new EditingState(document));
     }
 
     @Override
@@ -25,10 +25,4 @@ public class SavingState implements DocumentState{
         document.setCurrentState(new ViewingState(document));
     }
     
-    @Override
-    public void exitDocument() {
-        System.out.println("You are exiting the Saving state. Enjoy editing the document......");
-        document.setCurrentState(new EditingState(document));
-    }
-
 }
