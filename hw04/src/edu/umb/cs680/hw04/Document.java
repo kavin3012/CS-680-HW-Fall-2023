@@ -27,8 +27,6 @@ class Document {
         currentState.viewDocument();
     }
 
-    public void exitDocument() {
-        currentState.exitDocument();
-    }
+
 }
 
