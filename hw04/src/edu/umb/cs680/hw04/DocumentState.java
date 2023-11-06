@@ -4,5 +4,4 @@ interface DocumentState {
     void editDocument();
     void saveDocument();
     void viewDocument();
-    void exitDocument();
 }
