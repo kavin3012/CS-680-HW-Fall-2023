@@ -22,11 +22,7 @@ class EditingState implements DocumentState {
 
     @Override
     public void viewDocument() {
-        System.out.println("You cannot view the document in Editing state. Save it first.");
+        document.setCurrentState(new ViewingState(document));
     }
 
-    @Override
-    public void exitDocument() {
-        System.out.println("You cannot exit the document, you need to close the application completely, make sure the document is saved");
-    }
 }
